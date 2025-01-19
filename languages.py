@@ -85,7 +85,7 @@ word: StringVar = StringVar()
 word_entry = Entry(window, textvariable=word, font=('ariel',19))
 word_entry.pack()
 
-
+ 
 result = StringVar()
 result_label =Label(window , textvariable=result)
 result_label.pack()
